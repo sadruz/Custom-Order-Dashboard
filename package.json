@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce-dataset-main",
+  "version": "1.0.0",
+  "description": "This is a fictitious eCommerce clothing site dataset.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "sqlite3": "^5.1.7"
+  }
+}
