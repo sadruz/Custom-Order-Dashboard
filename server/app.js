@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const customerRoutes = require('./routes/customerRoutes');
+const orderRoutes = require('./routes/orderRoutes');
 const db = require('./database.js'); // Ensure database exists
 
 const app = express();
@@ -11,6 +12,7 @@ app.use(express.json());
 
 // Routes
 app.use('/api/customers', customerRoutes);
+app.use('/api/orders', orderRoutes);
 
 // Error handling
 app.use((err, req, res, next) => {
